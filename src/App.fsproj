@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="index.html" />
+    <Compile Include="Types.fs" />
+    <Compile Include="Context.fs" />
+    <Compile Include="Extensions.fs" />
+    <Compile Include="Builder.fs" />
+    <Compile Include="Contextmenu.fs" />
+    <Compile Include="View.fs" />
+    <Compile Include="Main.fs" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Feliz" Version="2.8.0" />
+    <PackageReference Include="Feliz.Bulma" Version="3.0.0" />
+    <PackageReference Include="Feliz.Router" Version="4.0.0" />
+    <PackageReference Include="Fable.SimpleJson" Version="3.24.0" />
+  </ItemGroup>
+</Project>
